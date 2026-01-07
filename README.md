@@ -71,10 +71,12 @@ Si deseas cambiar el destino del formulario, actualiza la URL del `action` por e
 
 ## Productos
 
-- Conservadores Pequeños (10-20 litros)
-- Conservadores Medianos (30-50 litros)
-- Conservadores Grandes (60-100 litros)
-- Conservadores Extra Grandes (100+ litros)
+| Modelo | Tamaño       | Volumen (L) | Puertas | Peso   | Ancho (cm) |
+|--------|--------------|-------------|---------|--------|------------|
+| **20** | Pequeño      | 258         | 1       | 67 kg  | 64         |
+| **55** | Mediano      | 946         | 1       | 102 kg | 115        |
+| **95** | Grande       | 1095        | 1       | 120 kg | 115        |
+| **190**| Extra grande | 2189        | 2       | 250 kg | 229        |
 
 ## Servicios
 
