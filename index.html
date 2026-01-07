@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conservadores de hielo de alta calidad y servicio de venta de hielo. Mantén tus productos frescos con nuestros conservadores de diferentes capacidades.">
+    <title>Conserva - Conservadores de Hielo y Venta de Hielo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Conserva</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Mantén Todo Fresco</h1>
+                <p class="hero-subtitle">Conservadores de hielo de alta calidad y servicio de venta de hielo para todas tus necesidades</p>
+                <a href="#contacto" class="btn btn-primary">Solicitar Cotización</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="productos" class="products">
+        <div class="container">
+            <h2 class="section-title">Nuestros Conservadores</h2>
+            <p class="section-subtitle">Diferentes capacidades para adaptarse a tus necesidades</p>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon">🧊</div>
+                    <h3>Pequeño</h3>
+                    <p class="product-capacity">10-20 litros</p>
+                    <p class="product-description">Ideal para uso personal y actividades al aire libre</p>
+                    <ul class="product-features">
+                        <li>✓ Portátil y ligero</li>
+                        <li>✓ Aislamiento térmico superior</li>
+                        <li>✓ Duradero y resistente</li>
+                    </ul>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🧊</div>
+                    <h3>Mediano</h3>
+                    <p class="product-capacity">30-50 litros</p>
+                    <p class="product-description">Perfecto para familias y eventos pequeños</p>
+                    <ul class="product-features">
+                        <li>✓ Capacidad intermedia</li>
+                        <li>✓ Mantiene temperatura por más tiempo</li>
+                        <li>✓ Fácil de transportar</li>
+                    </ul>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🧊</div>
+                    <h3>Grande</h3>
+                    <p class="product-capacity">60-100 litros</p>
+                    <p class="product-description">Para eventos grandes y uso comercial</p>
+                    <ul class="product-features">
+                        <li>✓ Gran capacidad</li>
+                        <li>✓ Máxima duración de frío</li>
+                        <li>✓ Ideal para negocios</li>
+                    </ul>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🧊</div>
+                    <h3>Extra Grande</h3>
+                    <p class="product-capacity">100+ litros</p>
+                    <p class="product-description">Solución industrial y comercial</p>
+                    <ul class="product-features">
+                        <li>✓ Capacidad máxima</li>
+                        <li>✓ Diseño profesional</li>
+                        <li>✓ Para uso intensivo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">Servicio de Venta de Hielo</h2>
+            <p class="section-subtitle">Hielo fresco y de calidad para tus eventos y negocios</p>
+            <div class="services-content">
+                <div class="service-item">
+                    <div class="service-icon">❄️</div>
+                    <h3>Hielo en Cubos</h3>
+                    <p>Hielo tradicional en cubos, perfecto para bebidas y conservación</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">❄️</div>
+                    <h3>Hielo en Escamas</h3>
+                    <p>Hielo en escamas para exhibición de productos frescos</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">❄️</div>
+                    <h3>Entrega a Domicilio</h3>
+                    <p>Servicio de entrega disponible según tu ubicación</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">❄️</div>
+                    <h3>Venta al Mayoreo</h3>
+                    <p>Precios especiales para compras en grandes cantidades</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contáctanos</h2>
+            <p class="section-subtitle">Solicita una cotización o más información sobre nuestros productos y servicios</p>
+            <div class="contact-wrapper">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre completo *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="interest">Me interesa *</label>
+                        <select id="interest" name="interest" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="conservador-pequeño">Conservador Pequeño (10-20L)</option>
+                            <option value="conservador-mediano">Conservador Mediano (30-50L)</option>
+                            <option value="conservador-grande">Conservador Grande (60-100L)</option>
+                            <option value="conservador-extra-grande">Conservador Extra Grande (100+L)</option>
+                            <option value="venta-hielo">Servicio de Venta de Hielo</option>
+                            <option value="ambos">Ambos (Conservadores y Hielo)</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantity">Cantidad aproximada</label>
+                        <input type="text" id="quantity" name="quantity" placeholder="Ej: 5 unidades, 100 kg de hielo">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Cuéntanos más sobre tus necesidades..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Enviar Solicitud</button>
+                    <div id="formMessage" class="form-message"></div>
+                </form>
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <div class="info-item">
+                        <strong>Horario de Atención</strong>
+                        <p>Lunes a Viernes: 9:00 AM - 6:00 PM<br>Sábados: 9:00 AM - 2:00 PM</p>
+                    </div>
+                    <div class="info-item">
+                        <strong>¿Por qué elegirnos?</strong>
+                        <ul>
+                            <li>✓ Productos de alta calidad</li>
+                            <li>✓ Precios competitivos</li>
+                            <li>✓ Atención personalizada</li>
+                            <li>✓ Entrega rápida y confiable</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Conserva. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
