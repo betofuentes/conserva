@@ -58,7 +58,16 @@ Los colores principales se pueden modificar en `styles.css` en la sección `:roo
 
 ### Formulario de Contacto
 
-El formulario actualmente simula el envío. Para conectarlo a un backend real, modifica la función `simulateFormSubmission` en `script.js` para hacer una llamada a tu API.
+El formulario de contacto envía los datos a través de **Formspree**, por lo que no se requiere un backend propio.
+
+- **Endpoint Formspree**: `https://formspree.io/f/mnjnejvy` configurado en el atributo `action` del formulario en `index.html`.
+- **Método HTTP**: `POST`.
+- **Validación en el cliente**:  
+  - Se valida que los campos requeridos (nombre, correo, teléfono y selección de interés) estén completos.  
+  - Se valida el formato del correo electrónico.  
+  - Si la validación es correcta, el formulario se envía con `contactForm.submit()` desde `script.js`.
+
+Si deseas cambiar el destino del formulario, actualiza la URL del `action` por el nuevo endpoint de Formspree (o servicio equivalente).
 
 ## Productos
 

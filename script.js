@@ -60,42 +60,8 @@ if (contactForm) {
             return;
         }
 
-        // Show loading state
-        const submitButton = contactForm.querySelector('.btn-submit');
-        const originalButtonText = submitButton.textContent;
-        submitButton.textContent = 'Enviando...';
-        submitButton.disabled = true;
-
-        try {
-            // Here you would typically send the data to a server
-            // For now, we'll simulate a successful submission
-            await simulateFormSubmission(formData);
-            
-            // Show success message
-            showMessage('¡Gracias por tu interés! Nos pondremos en contacto contigo pronto.', 'success');
-            
-            // Reset form
-            contactForm.reset();
-            
-        } catch (error) {
-            showMessage('Hubo un error al enviar el formulario. Por favor intenta nuevamente.', 'error');
-        } finally {
-            submitButton.textContent = originalButtonText;
-            submitButton.disabled = false;
-        }
-    });
-}
-
-// Simulate form submission (replace with actual API call)
-function simulateFormSubmission(formData) {
-    return new Promise((resolve) => {
-        // Log form data to console (in production, send to server)
-        console.log('Form Data:', formData);
-        
-        // Simulate network delay
-        setTimeout(() => {
-            resolve(formData);
-        }, 1000);
+        // Si la validación fue exitosa, enviamos el formulario directamente a Formspree
+        contactForm.submit();
     });
 }
 
