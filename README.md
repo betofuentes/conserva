@@ -1,4 +1,4 @@
-# Conserva - Landing Page
+# hielokaizen - Landing Page
 
 Landing page para la venta de conservadores de hielo y servicio de venta de hielo.
 
@@ -14,7 +14,7 @@ Landing page para la venta de conservadores de hielo y servicio de venta de hiel
 ## Estructura del Proyecto
 
 ```
-conserva/
+hielokaizen/
 ├── index.html      # Página principal
 ├── styles.css      # Estilos CSS
 ├── script.js       # JavaScript para interactividad
