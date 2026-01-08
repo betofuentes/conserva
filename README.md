@@ -80,8 +80,8 @@ Si deseas cambiar el destino del formulario, actualiza la URL del `action` por e
 
 ## Servicios
 
-- Venta de hielo en cubos
-- Venta de hielo en escamas
+- Venta de hielo para consumo
+- Venta de hielo para insumo
 - Entrega a domicilio
 - Venta al mayoreo
 
