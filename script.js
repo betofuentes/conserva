@@ -1,3 +1,55 @@
+// Products Data Array
+const products = [
+    {
+        model: 'G20',
+        name: 'Modelo G20',
+        capacity: 258,
+        capacityUnit: 'litros',
+        doors: 1,
+        weight: 67,
+        weightUnit: 'kg',
+        width: 64,
+        widthUnit: 'cm',
+        image: 'https://guerramx.com/wp-content/uploads/2025/11/M20-6-1-683x1024.jpg'
+    },
+    {
+        model: 'G55',
+        name: 'Modelo G55',
+        capacity: 946,
+        capacityUnit: 'litros',
+        doors: 1,
+        weight: 102,
+        weightUnit: 'kg',
+        width: 115,
+        widthUnit: 'cm',
+        image: 'https://guerramx.com/wp-content/uploads/2025/11/M55-5-1-683x1024.jpg'
+    },
+    {
+        model: 'G95',
+        name: 'Modelo G95',
+        capacity: 1095,
+        capacityUnit: 'litros',
+        doors: 1,
+        weight: 120,
+        weightUnit: 'kg',
+        width: 115,
+        widthUnit: 'cm',
+        image: 'https://guerramx.com/wp-content/uploads/2025/11/M95-7-1-683x1024.jpg'
+    },
+    {
+        model: 'G190',
+        name: 'Modelo G190',
+        capacity: 2189,
+        capacityUnit: 'litros',
+        doors: 2,
+        weight: 250,
+        weightUnit: 'kg',
+        width: 229,
+        widthUnit: 'cm',
+        image: 'https://guerramx.com/wp-content/uploads/2025/11/Modelo190-5-1-1024x683.jpg'
+    }
+];
+
 // Mobile Navigation Toggle
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
